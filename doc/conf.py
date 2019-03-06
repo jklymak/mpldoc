@@ -218,7 +218,8 @@ github_project_url = "https://github.com/matplotlib/matplotlib/"
 #html_style = 'matplotlib.css'
 html_style = 'mpl.css'
 def setup(app):
-    app.add_stylesheet('mpl.css')
+    app.add_css_file('mpl.css')
+    app.add_css_file('mpl-rtd.css')
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
